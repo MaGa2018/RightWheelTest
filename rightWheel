@@ -1,0 +1,13 @@
+int rightWheel = 8;
+
+void setup() {
+  pinMode(rightWheel, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(rightWheel, HIGH);
+  delay(1000);
+  digitalWrite(rightWheel, LOW);
+  delay(1000);
+}
